@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar JavaScript</title>
+	<script type="text/javascript" src="js/fungsi.js"></script>
+</head>
+<body>
+	<h3>Mencetak isi html dengan menggunakan js</h3>
+
+	<p id="belajar"></p>
+	<script>
+	var Person = {
+			nama 	: "Aulia Rahman",
+			age	 	: "20th",
+			gender	: "Laki-Laki",
+			interest: "",
+			bio		: ""
+		}
+		document.getElementById("belajar").innerHTML = "Nama : "+Person.nama+"Age : "+Person.age+"gender : "+Person.gender+"Interest : "+Person.interest + "bio : " + Person.bio;
+	</script>
+</body>
+</html>
